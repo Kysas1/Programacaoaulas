@@ -1,0 +1,46 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(129, 129, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.child {
+    background-color: purple;
+    margin: 5px;
+    padding: 15px;
+    border: solid black 3px;
+    border-radius: 10px;
+    width: 30vw;
+    text-align: justify;
+}
+
+.container h1 {
+    padding: 15px;
+    margin: 15px;
+    
+}
+
+.container input{
+    margin: 15px;
+    
+}
+
+.inp1 {
+   width: 10vw;
+}
+
+.inp2 {
+    width: 10vw;
+}
+
