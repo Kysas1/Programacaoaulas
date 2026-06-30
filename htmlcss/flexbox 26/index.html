@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            height: 400px;
+            background-color: lightblue;
+            display: flex;   
+            flex-flow: wrap row;       
+            align-items: flex-start;         
+            
+          
+        }
+        .item {
+            background-color: lightgreen;
+            padding: 20px;
+            border: solid black 0.2px;
+            margin: 1.9px;
+            border-radius: 8px;
+        }
+
+        div#i3 {
+            background-color: lightcoral;
+            
+        }
+
+        #i4 {
+            
+        }
+        #i5 {
+            background-color: lightskyblue;
+            flex-grow: 1;
+            align-self: stretch;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="i1">1</div>
+        <div class="item" id="i2">2</div>
+        <div class="item" id="i3">3</div>
+        <div class="item" id="i4">4</div>
+        <div class="item" id="i5">5</div>
+    </div>
+</body>
+</html>
